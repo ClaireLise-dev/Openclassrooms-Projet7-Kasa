@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px;
+}
+
+.Nav a {
+    font-size: 24px;
+    text-align:right;
+    padding-left: 57px;
+}
+
+.Nav a:hover, a.active {
+    text-decoration: underline;
+    text-decoration-thickness: 1px ;
+}

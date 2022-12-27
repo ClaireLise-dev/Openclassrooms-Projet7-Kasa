@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className={classes.Header}>
                 <NavLink to={routes.HOME}>
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" className={classes.Logo} />
                 </NavLink>
             
             <nav className={classes.Nav}>

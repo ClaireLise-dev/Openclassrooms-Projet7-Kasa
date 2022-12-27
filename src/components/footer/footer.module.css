@@ -11,3 +11,15 @@
 
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 767px){
+
+    .Footer{
+        font-size: 12px;
+    }
+
+    .Logo{
+        width: 122px;
+        height: 40px;
+    }
+}

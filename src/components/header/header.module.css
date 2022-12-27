@@ -15,3 +15,22 @@
     text-decoration: underline;
     text-decoration-thickness: 1px ;
 }
+
+@media screen and (max-width: 767px){
+    .Header {
+        height: 47px;
+        width: 335px;
+        margin: 20px;
+    }
+
+    .Logo {
+        width: 145px;
+        height: 47px;
+    }
+
+    .Nav a{
+        padding-left: 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}

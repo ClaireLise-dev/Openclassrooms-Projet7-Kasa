@@ -18,3 +18,9 @@
     font-size: 18px;
     margin: 20px;
 }
+
+@media screen and (max-width: 767px){
+    .Container{
+        width:335px;
+    }
+}

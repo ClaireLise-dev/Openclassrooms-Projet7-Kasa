@@ -1,0 +1,24 @@
+.Banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 223px;
+    background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/bannerAbout_img.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 850px){
+    .Banner{
+        background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/bannerAbout_img.png);
+        background-size: cover;
+        height: 111px;
+        width: 335px;
+        border-radius: 10px;
+    }
+}

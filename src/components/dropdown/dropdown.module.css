@@ -1,0 +1,33 @@
+.Dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1023px;
+    height: 47px;
+    padding: 0 18px;
+    background-color: #FF6060;
+    color: white;
+    margin-top: 38px;
+    border-radius: 5px;
+}
+
+.DropdownTitle {
+    font-size: 24px;
+}
+
+.arrowUp {
+    transform: rotate(180deg);
+}
+
+
+.DropdownContent {
+    width: 1023px;
+    font-size: 24px;
+    font-weight: 400;
+    color:#FF6060;
+    line-height: 34px;
+    padding: 30px 18px;
+    background-color: #F6F6F6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

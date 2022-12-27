@@ -7,10 +7,10 @@ function Layout(props){
     return (
         <>
             <div className={classes.GeneralContainer}>
-            <Header />
+                <Header />
                     {props.children}
             </div>
-          <Footer />
+           <Footer />
         </>
     )
 }

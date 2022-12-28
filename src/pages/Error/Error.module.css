@@ -20,3 +20,22 @@
 
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 850px){
+    .ErrorContainer{
+        margin: 100px 0;
+    }
+    .ErrorText{
+        margin-bottom: 133px;
+    }
+
+    .ErrorText h1 {
+        font-size: 96px;
+    }
+
+    .ErrorText p {
+        font-size: 18px;
+    }
+
+
+}

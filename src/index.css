@@ -16,3 +16,8 @@ a {
   cursor: pointer;
   color: #FF6060;
 }
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1px ;
+}

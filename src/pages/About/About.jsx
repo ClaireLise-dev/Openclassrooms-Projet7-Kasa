@@ -8,7 +8,7 @@ function About() {
         <main className={classes.AboutContainer}>
             <BannerAbout />
             <section className={classes.DropdownContainer}>
-                <div className={classes.Dropdown}>
+                <div className={classes.DropdownAbout}>
                 {text.map((text, index) => {
                     return (
                         <div className={classes.DropdownItem} key={index}>

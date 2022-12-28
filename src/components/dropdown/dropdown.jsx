@@ -18,7 +18,7 @@ function Dropdown(props){
                 <img className={show ? classes.arrowUp : classes.arrow} src={arrow} onClick={ShowChange} alt='fleche'/>
             </div>
             {show && (
-                    <div className={classes.DropdownContent}>{props.content}</div>
+                    <div className={classes.DropdownContent}><p>{props.content}</p></div>
                 )}
         </>
         )

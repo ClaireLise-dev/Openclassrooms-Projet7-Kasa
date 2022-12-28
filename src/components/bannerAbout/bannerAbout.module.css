@@ -15,10 +15,11 @@
 
 @media screen and (max-width: 850px){
     .Banner{
-        background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/bannerAbout_img.png);
+        background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/bannerAbout_mobile_img.svg);
         background-size: cover;
-        height: 111px;
+        height: 223px;
         width: 335px;
+        margin: 20px;
         border-radius: 10px;
     }
 }

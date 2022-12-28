@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1023px;
+    width: 987px;
     height: 47px;
-    padding: 0 18px;
     background-color: #FF6060;
     color: white;
     margin-top: 38px;
     border-radius: 5px;
+    padding: 0 18px;
 }
 
 .DropdownTitle {
@@ -19,9 +19,8 @@
     transform: rotate(180deg);
 }
 
-
 .DropdownContent {
-    width: 1023px;
+    width: 987px;
     font-size: 24px;
     font-weight: 400;
     color:#FF6060;
@@ -30,4 +29,38 @@
     background-color: #F6F6F6;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width: 850px){
+    
+    .Dropdown {
+        width: 311px;
+        height: 30px;
+        margin-top: 20px;
+        padding: 0 12px;
+    }
+
+    .DropdownTitle {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .Dropdown img {
+        width: 9px;
+        height: 15px;
+        margin: 0 12px;
+    }
+
+    .DropdownContent {
+        width: 311px;
+        font-size: 12px;
+        padding: 20px 12px;
+    }
+
+    .DropdownContent{
+        background-color: #F6F6F6;
+    }
 }

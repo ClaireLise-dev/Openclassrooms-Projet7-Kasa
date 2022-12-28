@@ -13,3 +13,18 @@
     align-items: center;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 850px){
+    .DropdownContainer{
+        width: 335px;
+    }
+
+    .AboutContainer{
+        width: 335px;
+    }
+
+    .DropdownItem{
+        width: 335px
+    }
+}
+

@@ -1,3 +1,14 @@
+@keyframes progressive {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .Dropdown {
     display: flex;
     justify-content: space-between;
@@ -17,10 +28,19 @@
 
 .arrowUp {
     transform: rotate(180deg);
+    transition: transform ease-in-out 250ms;
+    cursor: pointer;
+}
+
+.arrow{
+    transform: rotate(0deg);
+    transition: transform ease-in-out 250ms;
+    cursor: pointer;
 }
 
 .DropdownContent {
     width: 987px;
+    height: auto;
     font-size: 24px;
     font-weight: 400;
     color:#FF6060;
@@ -29,10 +49,19 @@
     background-color: #F6F6F6;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    animation: progressive 1s ease-in-out both;
+    transition: .3s ease-in-out;
 }
 
 
+@media screen and (max-width: 1240px)  {
 
+    .Dropdown, .DropdownContent{
+        width: 700px;
+    }   
+    
+    
+}
 
 @media screen and (max-width: 850px){
     

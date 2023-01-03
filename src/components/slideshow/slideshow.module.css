@@ -23,6 +23,11 @@
     cursor: pointer;
 }
 
+.ArrowBack:hover {
+    transform: scale(1.2);
+    transition: transform ease-in-out 150ms;
+}
+
 .ArrowBackNone {
     display: none;
 }
@@ -34,6 +39,10 @@
     cursor: pointer;
 }
 
+.ArrowForward:hover {
+    transform: scale(1.2);
+    transition: transform ease-in-out 150ms;
+}
 .ArrowFrowardNone {
     display: none;
 }

@@ -1,0 +1,48 @@
+.SlideshowContainer{
+    width: 1240px;
+    height: 415px;
+    position: relative;
+}
+
+.Slideshow {
+    width: 100%;
+    height: auto; 
+}
+
+.Image {
+    width: 1240px;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.ArrowBack {
+    position: absolute;
+    left: 23px;
+    top: 156px;
+    cursor: pointer;
+}
+
+.ArrowBackNone {
+    display: none;
+}
+
+.ArrowForward {
+    position: absolute;
+    right: 23px;
+    top: 156px;
+    cursor: pointer;
+}
+
+.ArrowFrowardNone {
+    display: none;
+}
+
+.Counter {
+    position: absolute;
+    color: white;
+    bottom: 25px;
+    left: 50%;
+    font-size: 18px;
+    font-weight: 500;
+}

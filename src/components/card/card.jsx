@@ -6,7 +6,7 @@ function Card(props){
 
     return (
         <div className={classes.Container}>
-            <NavLink to={routes.ACCOMODATION + '/' + props.house.id} className={classes.Card} key={props.house.key}>
+            <NavLink to={'accomodation/' + props.house.id} className={classes.Card} key={props.house.key}>
                 <img className={classes.CardImg} src={props.house.cover} alt="" />
                 <h2>{props.house.title}</h2>
             </NavLink>

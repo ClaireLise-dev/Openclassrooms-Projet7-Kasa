@@ -17,8 +17,8 @@ function App(){
             <Layout>
                 <Routes>
                     <Route exact path={routes.HOME} element={<Home />} />
-                    <Route path={routes.ABOUT} element={<About />} />
-                    <Route path={routes.ACCOMODATION} element={<Accomodation />} />
+                    <Route exact path={routes.ABOUT} element={<About />} />
+                    <Route exact path= 'accomodation/:id' element={<Accomodation />} />
                     <Route path={routes.ERROR} element={<Error />} />
                 </Routes>
             </Layout>

@@ -1,7 +1,6 @@
 const routes = {
     HOME: '/',
     ABOUT: '/about',
-    ACCOMODATION: '/accomodation',
     ERROR: '*'
 }
 

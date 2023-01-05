@@ -25,12 +25,8 @@ function Slideshow (props) {
             <span className={classes.Counter}>
                 { currentImage + 1 } / { length }
             </span>
-            <button onClick={previousImage}>
-                <img src={arrowBack} className={ length === 1 ? classes.ArrowBackNone : classes.ArrowBack }  alt="bouton précédent" />
-            </button>
-            <button onClick={nextImage}>
-                <img src={arrowForward} className= {length === 1 ? classes.ForwardArrowNone : classes.ArrowForward} alt="bouton suivant" />
-            </button>
+            <img src={arrowBack} onClick={previousImage} className={ length === 1 ? classes.ArrowBackNone : classes.ArrowBack }  alt="bouton précédent" />
+            <img src={arrowForward} onClick={nextImage} className= {length === 1 ? classes.ForwardArrowNone : classes.ArrowForward} alt="bouton suivant" />
         </div>
 
     )

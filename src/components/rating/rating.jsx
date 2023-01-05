@@ -8,15 +8,17 @@ function Rating(props){
     for (let i = 0; i < props.rating; i++){
         ratingTab.push(
             <img
-              className={classes.Star}
-              src={Star}
-              alt="Star"
+            key={ i }
+            className={classes.Star}
+            src={Star}
+            alt="Star"
             />
           );
         }
     for (let j = ratingTab.length; j < 5; j++){
         ratingTab.push(
             <img
+            key={ j }
             className={classes.Star}
             src={EmptyStar}
             alt="Empty Star"

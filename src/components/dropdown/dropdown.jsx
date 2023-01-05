@@ -8,7 +8,6 @@ function Dropdown(props){
 
     const ShowChange = () => {
         setShow(!show);
-        console.log(show)
     };
     
       return (

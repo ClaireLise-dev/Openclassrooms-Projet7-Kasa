@@ -1,0 +1,15 @@
+.Tags{
+    display: flex;
+    flex-direction: row;
+}
+
+.SingleTag{
+    background-color: #FF6060;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 115px;
+    height: 25px;
+    text-align: center;
+}

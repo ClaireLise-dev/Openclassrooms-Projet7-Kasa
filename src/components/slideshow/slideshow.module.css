@@ -43,7 +43,7 @@
     transform: scale(1.2);
     transition: transform ease-in-out 150ms;
 }
-.ArrowFrowardNone {
+.ArrowForwardNone {
     display: none;
 }
 

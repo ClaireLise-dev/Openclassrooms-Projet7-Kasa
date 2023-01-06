@@ -74,10 +74,9 @@
 @media screen and (max-width: 850px){
     
     .Dropdown {
-        width: 311px;
+        width: 335px;
         height: 30px;
         margin-top: 20px;
-        padding: 0 12px;
     }
 
     .DropdownTitle {
@@ -92,12 +91,16 @@
     }
 
     .DropdownContent {
-        width: 311px;
+        width: 335px;
         font-size: 12px;
-        padding: 20px 12px;
+       
     }
 
     .DropdownContent{
         background-color: #F6F6F6;
+    }
+    
+    .DropdownTitle{
+        margin-left: 11px;
     }
 }

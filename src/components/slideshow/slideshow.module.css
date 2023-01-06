@@ -6,12 +6,12 @@
 
 .Slideshow {
     width: 100%;
-    height: auto; 
+    height: 100%; 
 }
 
 .Image {
-    width: 1240px;
-    height: 415px;
+    width: 100%;
+    height: 100%;
     border-radius: 25px;
     object-fit: cover;
 }
@@ -43,6 +43,7 @@
     transform: scale(1.2);
     transition: transform ease-in-out 150ms;
 }
+
 .ArrowForwardNone {
     display: none;
 }
@@ -55,3 +56,53 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1240px){
+    .SlideshowContainer{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    
+    .SlideshowContainer{
+        width: 335px;
+        height: 255px;
+        position: relative;
+    }
+
+    .Image{
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .ArrowBack {
+        position: absolute;
+        left: 6px;
+        top: 118px;
+        width: 12px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .ArrowForward{
+        position: absolute;
+        right: 6px;
+        top: 118px;
+        width: 12px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .Counter {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        font-size: 12px;
+    }
+}
+
+
+
+

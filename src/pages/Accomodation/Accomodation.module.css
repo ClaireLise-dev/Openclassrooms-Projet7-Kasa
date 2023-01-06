@@ -51,3 +51,88 @@
     width: 582px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 1240px){
+
+    .AccomodationInfosContainer{
+        width: 700px;
+    }
+
+    .InfosLocation{
+        max-width: 500px;
+    }
+
+    .InfosLocation h1 {
+        font-size: 22px;
+        line-height: 142.6%;
+        margin: 0;
+    }
+
+    .DropdownContainerAccomodation{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+@media screen and (max-width: 850px) {
+    
+
+    .AccomodationInfosContainer{
+        width: 335px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .AccomodationInfosContainer h1 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .AccomodationInfosContainer p {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .Host img{
+        width: 32px;
+        height: 32px;
+        margin-bottom: 0;
+    }
+
+    .Host{
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        margin-top: 18px;
+    }
+
+    .InfosHost{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .AccomodationInfos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .DropdownContainerAccomodation{
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+    }
+
+    .DropdownItemAccomodation{
+        width: 100%;
+        font-size: 13px;
+    }
+
+}

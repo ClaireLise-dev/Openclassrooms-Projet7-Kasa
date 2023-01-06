@@ -22,11 +22,12 @@
 
 @media screen and (max-width: 1240px)  {
 
-    .AboutContainer, .DropdownContainer{
+    .AboutContainer, .DropdownContainer, .DropdownItem {
         width: 700px;
     }
     
 }
+
 @media screen and (max-width: 850px){
     .DropdownContainer{
         width: 335px;
@@ -37,7 +38,7 @@
     }
 
     .DropdownItem{
-        width: 335px
+        width: 335px;
     }
 }
 

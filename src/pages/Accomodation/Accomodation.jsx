@@ -38,7 +38,7 @@ function Accomodation() {
         <div className={classes.DropdownContainerAccomodation}>
             <div className={classes.DropdownItemAccomodation}><Dropdown  title='Description' content={house.description} /> </div>
             <div className={classes.DropdownItemAccomodation}><Dropdown  title='Equipements' content={house.equipments.map((infos) => (
-              <li key={house.id}>{infos}</li>
+              <li key={infos}>{infos}</li>
             ))} />
             </div>
         </div>

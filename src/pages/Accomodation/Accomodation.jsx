@@ -1,18 +1,19 @@
-import { useParams } from "react-router";
+import { useParams, Navigate } from "react-router";
 import houses from '../../data/logements.json';
-import Error from '../Error/Error';
 import Slideshow from '../../components/slideshow/slideshow';
 import Rating from '../../components/rating/rating';
 import classes from './Accomodation.module.css';
 import Tags from '../../components/tags/tags';
-import Dropdown from '../../components/dropdown/dropdown'
+import Dropdown from '../../components/dropdown/dropdown';
+import routes from '../../config/routes'
+
 
 function Accomodation() {
     
     const { id } = useParams();
     const house = houses.find((house) => house.id === id);
     if (!house) {
-        return <Error />;
+        return <Navigate to={routes.ERROR} />;
     }
     
     return (

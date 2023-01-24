@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import classes from './card.module.css';
-import routes from '../../config/routes';
 
 function Card(props){
 

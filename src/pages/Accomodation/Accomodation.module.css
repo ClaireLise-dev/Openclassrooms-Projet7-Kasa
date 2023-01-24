@@ -23,7 +23,7 @@
 .Host{
     display:flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     color:#FF6060;
 }
@@ -106,7 +106,7 @@
     .Host{
         display:flex;
         flex-direction: row;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         margin-top: 18px;
     }

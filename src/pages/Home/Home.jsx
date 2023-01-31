@@ -1,4 +1,4 @@
-import { useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
 import classes from './Home.module.css';
 import houses from '../../data/logements.json';
 import Card from '../../components/card/card';

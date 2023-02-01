@@ -1,8 +1,8 @@
 const routes = {
-    HOME: '/',
-    ABOUT: '/about',
-    ERROR: '*',
-    ACCOMODATION: 'accomodation/:id'
+  HOME: '/',
+  ABOUT: '/about',
+  ERROR: '*',
+  ACCOMODATION: 'accomodation/:id',
 }
 
-export default routes;
+export default routes

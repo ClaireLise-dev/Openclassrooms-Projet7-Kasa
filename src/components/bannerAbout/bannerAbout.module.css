@@ -1,33 +1,32 @@
 .Banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 223px;
-    background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/bannerAbout_img.png);
-    background-repeat: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 223px;
+  background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)),
+    url(../../assets/bannerAbout_img.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1240px) {
+  .Banner {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Banner {
+    background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)),
+      url(../../assets/bannerAbout_mobile_img.svg);
     background-size: cover;
-    background-position: center center;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-@media screen and (max-width: 1240px)  {
-
-    .Banner{
-        width: 700px;
-    }   
-    
-}
-
-
-@media screen and (max-width: 850px){
-    .Banner{
-        background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/bannerAbout_mobile_img.svg);
-        background-size: cover;
-        height: 223px;
-        width: 335px;
-        margin: 20px;
-        border-radius: 10px;
-    }
+    height: 223px;
+    width: 335px;
+    margin: 20px;
+    border-radius: 10px;
+  }
 }

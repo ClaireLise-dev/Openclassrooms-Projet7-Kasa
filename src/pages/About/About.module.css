@@ -1,44 +1,43 @@
-.AboutContainer{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1240px;
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1240px;
 }
 
-.DropdownContainer{
-    width: 1240px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+.DropdownContainer {
+  width: 1240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.DropdownItem{
-    width: 1023px;
-    font-size: 24px;
-    font-weight: 400;
+.DropdownItem {
+  width: 1023px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
-@media screen and (max-width: 1240px)  {
-
-    .AboutContainer, .DropdownContainer, .DropdownItem {
-        width: 700px;
-    }
-    
+@media screen and (max-width: 1240px) {
+  .AboutContainer,
+  .DropdownContainer,
+  .DropdownItem {
+    width: 700px;
+  }
 }
 
-@media screen and (max-width: 850px){
-    .DropdownContainer{
-        width: 335px;
-    }
+@media screen and (max-width: 850px) {
+  .DropdownContainer {
+    width: 335px;
+  }
 
-    .AboutContainer{
-        width: 335px;
-    }
+  .AboutContainer {
+    width: 335px;
+  }
 
-    .DropdownItem{
-        width: 335px;
-    }
+  .DropdownItem {
+    width: 335px;
+  }
 }
-

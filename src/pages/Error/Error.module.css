@@ -1,41 +1,38 @@
-.ErrorContainer{
-    color: #FF6060;
-    text-align: center;
+.ErrorContainer {
+  color: #ff6060;
+  text-align: center;
 }
 
-.ErrorText{
-    margin-bottom: 182px;
+.ErrorText {
+  margin-bottom: 182px;
 }
 
 .ErrorText h1 {
-    font-size: 288px;
-    font-weight: 700;
+  font-size: 288px;
+  font-weight: 700;
 }
 
 .ErrorText p {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .Link {
-
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width: 850px){
-    .ErrorContainer{
-        margin: 100px 0;
-    }
-    .ErrorText{
-        margin-bottom: 133px;
-    }
+@media screen and (max-width: 850px) {
+  .ErrorContainer {
+    margin: 100px 0;
+  }
+  .ErrorText {
+    margin-bottom: 133px;
+  }
 
-    .ErrorText h1 {
-        font-size: 96px;
-    }
+  .ErrorText h1 {
+    font-size: 96px;
+  }
 
-    .ErrorText p {
-        font-size: 18px;
-    }
-
-
+  .ErrorText p {
+    font-size: 18px;
+  }
 }

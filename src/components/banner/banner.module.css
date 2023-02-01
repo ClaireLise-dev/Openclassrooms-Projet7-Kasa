@@ -1,40 +1,40 @@
 .Hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 220px;
-    margin-bottom: 22px;
-    background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/hero_home_img.svg);
-    background-repeat: none;
-    overflow: hidden;
-    border-radius: 25px;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 22px;
+  background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)),
+    url(../../assets/hero_home_img.svg);
+  background-repeat: none;
+  overflow: hidden;
+  border-radius: 25px;
+  text-align: center;
 }
 
 .Hero h1 {
-    display: flex;
-    align-items: center;
-    font-size: 48px;
-    font-weight: 500;
-    color: white;
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
 }
 
+@media screen and (max-width: 850px) {
+  .Hero {
+    background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)),
+      url(../../assets/hero_home_mobile.svg);
+    background-size: cover;
+    height: 111px;
+    width: 335px;
+    border-radius: 10px;
+  }
 
-@media screen and (max-width: 850px){
-    .Hero{
-        background: linear-gradient(rgba(40, 40, 40, 0.5), rgba(40,40,40,0.5)), url(../../assets/hero_home_mobile.svg);
-        background-size: cover;
-        height: 111px;
-        width: 335px;
-        border-radius: 10px;
-    }
-
-    .Hero h1 {
-        font-size: 24px;
-        text-align: left;
-        margin: 1rem;
-        line-height: 24px;;
-    }
+  .Hero h1 {
+    font-size: 24px;
+    text-align: left;
+    margin: 1rem;
+    line-height: 24px;
+  }
 }
-

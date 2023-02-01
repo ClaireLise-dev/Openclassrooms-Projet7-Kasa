@@ -1,108 +1,103 @@
-.SlideshowContainer{
-    width: 1240px;
-    height: 415px;
-    position: relative;
+.SlideshowContainer {
+  width: 1240px;
+  height: 415px;
+  position: relative;
 }
 
 .Slideshow {
-    width: 100%;
-    height: 100%; 
+  width: 100%;
+  height: 100%;
 }
 
 .Image {
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  object-fit: cover;
 }
 
 .ArrowBack {
-    position: absolute;
-    left: 23px;
-    top: 156px;
-    cursor: pointer;
+  position: absolute;
+  left: 23px;
+  top: 156px;
+  cursor: pointer;
 }
 
 .ArrowBack:hover {
-    transform: scale(1.2);
-    transition: transform ease-in-out 150ms;
+  transform: scale(1.2);
+  transition: transform ease-in-out 150ms;
 }
 
 .ArrowBackNone {
-    display: none;
+  display: none;
 }
 
 .ArrowForward {
-    position: absolute;
-    right: 23px;
-    top: 156px;
-    cursor: pointer;
+  position: absolute;
+  right: 23px;
+  top: 156px;
+  cursor: pointer;
 }
 
 .ArrowForward:hover {
-    transform: scale(1.2);
-    transition: transform ease-in-out 150ms;
+  transform: scale(1.2);
+  transition: transform ease-in-out 150ms;
 }
 
 .ArrowForwardNone {
-    display: none;
+  display: none;
 }
 
 .Counter {
+  position: absolute;
+  color: white;
+  bottom: 25px;
+  left: 50%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1240px) {
+  .SlideshowContainer {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .SlideshowContainer {
+    width: 335px;
+    height: 255px;
+    position: relative;
+  }
+
+  .Image {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ArrowBack {
     position: absolute;
-    color: white;
-    bottom: 25px;
+    left: 6px;
+    top: 118px;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .ArrowForward {
+    position: absolute;
+    right: 6px;
+    top: 118px;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .Counter {
+    position: absolute;
+    bottom: 15px;
     left: 50%;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 12px;
+  }
 }
-
-@media screen and (max-width: 1240px){
-    .SlideshowContainer{
-        width: 700px;
-    }
-}
-
-@media screen and (max-width: 850px){
-    
-    .SlideshowContainer{
-        width: 335px;
-        height: 255px;
-        position: relative;
-    }
-
-    .Image{
-        border-radius: 10px;
-        width: 100%;
-        height: 100%;
-    }
-
-    .ArrowBack {
-        position: absolute;
-        left: 6px;
-        top: 118px;
-        width: 12px;
-        height: 20px;
-        cursor: pointer;
-    }
-
-    .ArrowForward{
-        position: absolute;
-        right: 6px;
-        top: 118px;
-        width: 12px;
-        height: 20px;
-        cursor: pointer;
-    }
-
-    .Counter {
-        position: absolute;
-        bottom: 15px;
-        left: 50%;
-        font-size: 12px;
-    }
-}
-
-
-
-

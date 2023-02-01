@@ -1,25 +1,25 @@
-.Tags{
-    display: flex;
-    flex-direction: row;
+.Tags {
+  display: flex;
+  flex-direction: row;
 }
 
-.SingleTag{
-    background-color: #FF6060;
-    border-radius: 10px;
-    color: white;
-    font-size: 14px;
-    margin-right: 10px;
-    width: 115px;
-    height: 25px;
-    text-align: center;
+.SingleTag {
+  background-color: #ff6060;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 115px;
+  height: 25px;
+  text-align: center;
 }
 
-@media screen and (max-width: 850px){
-    .SingleTag{
-        width: 84px;
-        height: 18px;
-        font-size: 10px;
-        border-radius: 5px;
-        padding-bottom: 4px;
-    }
+@media screen and (max-width: 850px) {
+  .SingleTag {
+    width: 84px;
+    height: 18px;
+    font-size: 10px;
+    border-radius: 5px;
+    padding-bottom: 4px;
+  }
 }

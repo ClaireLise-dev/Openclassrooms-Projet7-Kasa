@@ -1,45 +1,46 @@
 .Header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 0;
-    width: 100%;
-    max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  width: 100%;
+  max-width: 1240px;
 }
 
 .Nav a {
-    font-size: 24px;
-    text-align:right;
-    padding-left: 57px;
+  font-size: 24px;
+  text-align: right;
+  padding-left: 57px;
 }
 
-.Nav a:hover, a.active {
-    text-decoration: underline;
-    text-decoration-thickness: 1px ;
+.Nav a:hover,
+a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
-@media screen and (max-width: 850px){
-    .Header {
-        height: 47px;
-        width: 80px;
-        margin: 20px;
-    }
+@media screen and (max-width: 850px) {
+  .Header {
+    height: 47px;
+    width: 80px;
+    margin: 20px;
+  }
 
-    .Logo {
-        width: 145px;
-        height: 47px;
-    }
+  .Logo {
+    width: 145px;
+    height: 47px;
+  }
 
-    .Nav a{
-        padding-left: 10px;
-        font-size: 12px;
-        text-transform: uppercase;
-    }
+  .Nav a {
+    padding-left: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
 
-@media screen and (max-width: 1240px){
-    .Header{
-        margin: 30px;
-        width: 90%;
-    }
+@media screen and (max-width: 1240px) {
+  .Header {
+    margin: 30px;
+    width: 90%;
+  }
 }

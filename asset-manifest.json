@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Openclassrooms-Projet7-Kasa/static/css/main.cb8d8129.css",
+    "main.js": "/Openclassrooms-Projet7-Kasa/static/js/main.23326b22.js",
+    "static/media/bannerAbout_mobile_img.svg": "/Openclassrooms-Projet7-Kasa/static/media/bannerAbout_mobile_img.b0fdb1fdfc53ee8fea61.svg",
+    "static/media/hero_home_mobile.svg": "/Openclassrooms-Projet7-Kasa/static/media/hero_home_mobile.2a09d61e6275968d93f8.svg",
+    "static/media/hero_home_img.svg": "/Openclassrooms-Projet7-Kasa/static/media/hero_home_img.bb95764b977cc4097a67.svg",
+    "static/media/bannerAbout_img.png": "/Openclassrooms-Projet7-Kasa/static/media/bannerAbout_img.02e1c4f7498de1cb845b.png",
+    "static/media/logo_orange.svg": "/Openclassrooms-Projet7-Kasa/static/media/logo_orange.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "static/media/logo_blanc.svg": "/Openclassrooms-Projet7-Kasa/static/media/logo_blanc.879b500939b17c84a3f7a1633edae6bf.svg",
+    "index.html": "/Openclassrooms-Projet7-Kasa/index.html",
+    "static/media/arrow.svg": "/Openclassrooms-Projet7-Kasa/static/media/arrow.b052dd29e3a2bab76700eee79e133c37.svg",
+    "static/media/arrow_back_house.svg": "/Openclassrooms-Projet7-Kasa/static/media/arrow_back_house.3529f3989e39b758930113b6f7a3d1d4.svg",
+    "static/media/arrow_forward_house.svg": "/Openclassrooms-Projet7-Kasa/static/media/arrow_forward_house.20f8ff01b05f9ea0cf55933722f7806c.svg",
+    "static/media/EmptyStar.svg": "/Openclassrooms-Projet7-Kasa/static/media/EmptyStar.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/Star.svg": "/Openclassrooms-Projet7-Kasa/static/media/Star.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.cb8d8129.css.map": "/Openclassrooms-Projet7-Kasa/static/css/main.cb8d8129.css.map",
+    "main.23326b22.js.map": "/Openclassrooms-Projet7-Kasa/static/js/main.23326b22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb8d8129.css",
+    "static/js/main.23326b22.js"
+  ]
+}

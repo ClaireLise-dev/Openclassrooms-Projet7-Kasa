@@ -6,6 +6,7 @@ import arrowBack from '../../assets/arrow_back_house.svg'
 function Slideshow(props) {
   let [currentImage, setCurrentImage] = useState(0)
   let length = props.images.length
+  
 
   function nextImage() {
     setCurrentImage(currentImage === length - 1 ? 0 : currentImage + 1)

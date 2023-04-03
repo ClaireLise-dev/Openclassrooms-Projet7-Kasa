@@ -8,6 +8,9 @@ function Home() {
   const [accomodations, setAccomodations] = useState(houses)
 
   useEffect(() => setAccomodations(houses), [])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <main className={classes.HomeContainer}>

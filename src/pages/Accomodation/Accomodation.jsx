@@ -1,4 +1,5 @@
 import { useParams, Navigate } from 'react-router'
+import { useEffect } from 'react'
 import houses from '../../data/logements.json'
 import Slideshow from '../../components/slideshow/slideshow'
 import Rating from '../../components/rating/rating'
@@ -8,6 +9,9 @@ import Dropdown from '../../components/dropdown/dropdown'
 import routes from '../../config/routes'
 
 function Accomodation() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const { id } = useParams()
   const house = houses.find((house) => house.id === id)
   if (!house) {
